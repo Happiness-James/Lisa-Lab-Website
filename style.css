@@ -56,4 +56,15 @@ a.active,a:hover{
     transition: 1s;
 
 }
+img{
+    content: url(/images/download-removebg-preview.png);
+    width:60px;
+    padding:0;
+    height:30px;
+    bottom:8px;
+    right:16px;
+    font-size: 18px;
+
+}
+
 
