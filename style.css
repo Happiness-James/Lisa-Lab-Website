@@ -40,6 +40,7 @@ ul li{
 }
 body{
     font-family: montserrat;
+    flex-direction: row;
 }
 nav{
     background:#680057;
@@ -90,8 +91,48 @@ a.active,a:hover{
 
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: grid;
+justify-content: center;
+    flex-direction: row;
+    vertical-align: text-top;
+    margin-left: 300px;
+    margin-right: 300px;
     width: 80%;
   }
+class{ 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      float: left;
+      vertical-align: text-top;
+      
+  }
+  img{
+      float:left;
+      width:200px;
+      height:200px;
+      object-fit:cover;
+      display:flex;
+      flex-direction:row;
+
+  
+}
+div{
+    text-align:center;
+
+}
+div img{
+    display:inline-block;
+    width:200px;
+    height:200px;
+
+}
+div:after{
+    content:'';
+    display : inline-block;
+    width:100px;
+
+
+
+}
+
